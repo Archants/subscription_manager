@@ -1,7 +1,7 @@
 Nama,Biaya,Metode Pembayaran,Tanggal Pembayaran,Tanggal Jatuh Tempo,Status
+Netflix,163000.0,BCA,2026-06-04,2026-07-03,Aktif
 ChatGPT,229000.0,BCA,2026-06-03,2026-07-02,Aktif
 Claude Pro,378000.0,DANA,2026-05-29,2026-06-29,Aktif
-Disney+,55000.0,DANA,2026-04-14,2026-05-13,Nonaktif
 Gemini Plus,100000.0,DANA,2026-05-25,2026-06-25,Aktif
-Netflix,163000.0,BCA,2026-06-04,2026-07-03,Aktif
 Spotify Premium,29900.0,GoPay,2026-05-10,2026-06-10,Nonaktif
+Disney+,55000.0,DANA,2026-04-14,2026-05-13,Nonaktif
