@@ -35,16 +35,6 @@ def add_subscription(pathfile, data: dict) -> None:
         writer = csv.DictWriter(file, fieldnames=template)
         writer.writerow(data)
 
-"""
-nama = input('Nama: ')
-biaya = float(input('Biaya: '))
-metpem = input('Metode Pembayaran: ')
-tanggal_pembayaran = date.fromisoformat(input('Tanggal Pembayaran (YYYY-MM-DD): '))
-tanggal_jatuh_tempo = date.fromisoformat(input('Tanggal Jatuh Tempo(YYYY-MM-DD): '))
-data = {key: value for key, value in zip(template, [nama, biaya, metpem, tanggal_pembayaran, tanggal_jatuh_tempo])}
-add_subscription(pathfile, data)
-"""
-
 
 # Fungsi untuk menghapus baris berdasarkan kolom "Nama"
 def delete_data(pathfile, nama_subscription: str) -> None:
