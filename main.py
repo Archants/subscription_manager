@@ -9,6 +9,7 @@ from pathlib import Path
 from datetime import date
 from functionn import *
 
+
 # ── Konstanta ──────────────────────────────────────────────────────────────────
 pathfile = Path(r"data\budi.csv")
 
